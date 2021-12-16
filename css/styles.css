@@ -87,7 +87,7 @@ UTILIDADES
     background-color: var(--background);
     margin: 3rem auto 2rem;
 }
-@media (min-width: 840px) {
+@media screen and (min-width: 840px) {
     .boton {
         display: inline-block;
         margin: 3rem 0 2rem;
@@ -116,7 +116,7 @@ HEADER
     width: 70%;
     height: 10rem;
 }
-@media (min-width: 840px) {
+@media screen and (min-width: 840px) {
     .barra {
         display: flex;
         flex-direction: row;
@@ -152,7 +152,7 @@ HEADER
     color: var(--hover);
     text-decoration: underline;
 }
-@media (min-width: 840px) {
+@media screen and (min-width: 840px) {
     .navegacion a {
         margin-right: 3rem;
     }
@@ -183,7 +183,7 @@ SITE HERO
     font-size: 2.5rem;
     text-transform: uppercase;
 }
-@media (min-width: 840px) {
+@media screen and (min-width: 840px) {
     .site-hero h1 {
         font-size: 4.5rem;
     }
@@ -221,7 +221,7 @@ ICONOS
     margin-top: 0;
     flex: 1;
 }
-@media (min-width: 840px) {
+@media screen and (min-width: 840px) {
     .iconos-nosotros {
         display: flex;
         justify-content: space-between;
@@ -297,7 +297,7 @@ ANUNCIOS
     display: flex;
     justify-content: flex-end;
 }
-@media (min-width: 920px) {
+@media screen and (min-width: 920px) {
     .contenedor-anuncios {
         display: flex;
         justify-content: space-evenly;
@@ -350,7 +350,7 @@ BLOG
     gap: 3rem;
     width: 80%;
 }
-@media (min-width: 840px) {
+@media screen and (min-width: 840px) {
     .entrada-blog {
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr;
@@ -394,7 +394,7 @@ hr {
     clear: both;
     width: 80%;
 }
-@media (min-width: 840px) {
+@media screen and (min-width: 840px) {
     .texto-entrada {
         text-align: left;
         align-self: center;
@@ -429,7 +429,7 @@ FOOTER
     align-items: center;
     padding: 4rem 0;
 }
-@media (min-width: 840px) {
+@media screen and (min-width: 840px) {
     .contenedor-footer {
         display: flex;
         justify-content: space-between;
@@ -440,7 +440,7 @@ FOOTER
 .site-footer .navegacion {
     display: none;
 }
-@media (min-width: 840px) {
+@media screen and (min-width: 840px) {
     .site-footer .navegacion {
         display: flex;
         text-align: center;
@@ -530,7 +530,7 @@ PÁGINAS INTERNAS
 .main-anuncio p:nth-child(3) {
     margin-bottom: 6rem; 
 }
-@media (min-width: 840px) {
+@media screen and (min-width: 840px) {
     .anuncio-heading {
         font-size: 4.5rem;
         margin: 5rem 0;
@@ -576,7 +576,7 @@ PÁGINAS INTERNAS
 .footer-entrada {
     margin-top: 4rem;
 }
-@media (min-width: 840px) {
+@media screen and (min-width: 840px) {
     .entrada-blog--img {
         max-width: 60%;
         display: block;
